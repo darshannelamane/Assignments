@@ -28,9 +28,9 @@ public class Assignment7Colec {
 		          
 		          Map<List,List> emDarshan= new LinkedHashMap<List,List>();
 		          
-		          emDarshan.put(salary,empName);
+		          emDarshan.put(empName,salary);
 		          
-		          System.out.println(emDarshan.get(0).get());
+		          System.out.println(emDarshan.get(empName).get(2));
 	}
 
 }
